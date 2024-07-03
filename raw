@@ -1,22 +1,2 @@
 
-    <script>
-    function calSum()
-    {
-        const Num1_element = document.getElementById("input_num1")
-        const Num2_element = document.getElementById("input_num2")
-        const sum = parseInt(Num1_element.value )+parseInt(Num2_element.value)
-        const Result_element = document.getElementById("text_result")
-        Result_element.innerText = `Sum :${sum}`
-    }
-    function reset()
-    {
-        const Num1_element = document.getElementById("input_num1")
-        Num1_element.value = "" 
-        const Num2_element = document.getElementById("input_num2")
-        Num2_element.value = "" 
-        const Result_element = document.getElementById("text_result")
-        Result_element.innerText = ""
-
-
-    }
-</script>
+    
